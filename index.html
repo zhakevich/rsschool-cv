@@ -1,47 +1,182 @@
-<!doctype html>
-<html>
- <head>
-  <meta charset="utf-8" />
-  <title>CV</title>
-     <style>
-   article, aside, details, figcaption, figure, footer,header,
-   hgroup, menu, nav, section { display: block; }
-  </style>
- </head>
- <body>
-<div class="block">
-    <style>
-    .block {
-        display: block;
-        justify-content: center;
-            }
-    </style>
-    <h1>My Curriculum vitae</h1>
-    <img src="photo.jpg" class="photo">
-    <style>
-        .photo {
-            width: 10%;
-            height: 10%;
-        }
-     </style>
-        <h2>Name and surname</h2>
-            <p>Vitali Zhakevich</p>
-            <h2>Contacts</h2>
-            <ul>
-               <li>+375 (29) 611-90-08</li>
-               <li>e-mail: zhakevichv@ya.ru</li>
-               <li>github: https://github.com/Vik-17</li>
-            </ul>
-        <h2>About me</h2>
-            <p>I want to learn programming. I was always drawn towards IT, but did not know where to start until I came across RS-school courses.
-            </p>
-        <h2>Code</h2>
-            <p>Not</p>
-        <h2>Education</h2>
-            <p>Degree in economics: [Moscow State University of Economics, Statistics and Informatics (MESI)
-            </p>
-        <h2>English level</h2>
-            <p>English is still at a poor level. At the moment I am diligently studying English to improve my level.</p>
-</div>
- </body>
-</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My CV</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <div class="profile">
+          <div class="img">
+            <img
+              class="img-avatar"
+              src="img/src_c8255db9edc3b9bc.jpg"
+              alt="Profile photo"
+            />
+          </div>
+          <h2 class="title">
+            Vitali Zhakevich<br /><span class="subtitle">Web Developer</span>
+          </h2>
+        </div>
+        <div class="contact-info">
+          <h3 class="contact-title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-phone" aria-hidden="true"></i
+              ></span>
+              <span class="text">+375(29) 611 90 08</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-envelope-o" aria-hidden="true"></i
+              ></span>
+              <span class="text">zhakevichv@ya.ru</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-globe" aria-hidden="true"></i
+              ></span>
+              <span class="text">www.site.com</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+              ></span>
+              <span class="text">www.linkedin.com/me</span>
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></span>
+              <span class="text">
+                <a href="https://github.com/Vik-17" class="text link"
+                  >www.github.com/me</a
+                ></span
+              >
+            </li>
+            <li>
+              <span class="icon"
+                ><img
+                  src="img/rs_school_js.svg"
+                  alt="Rs school"
+                  class="icon-img"
+              /></span>
+              <span class="text">
+                <a class="text link" href="https://rs.school/js/"
+                  >rs.school</a
+                ></span
+              >
+            </li>
+            <li>
+              <span class="icon"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></span>
+              <span class="text">Minsk, Belarus</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info education">
+          <h3 class="contact-title">Education</h3>
+          <ul>
+            <li>
+              <h5>2021 - Present</h5>
+              <h4>JavaScript/Front-end</h4>
+              <h4>Rs school</h4>
+            </li>
+            <li>
+              <h5>2010-2015</h5>
+              <h4>Economist</h4>
+              <h4>МЭСИ</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-info language">
+          <h3 class="contact-title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">English</span>
+              <span class="percent">
+                <div class="lang-percent en"></div>
+              </span>
+            </li>
+            <li>
+              <span class="text">Русский</span>
+              <span class="percent">
+                <div class="lang-percent ru"></div>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="about">
+          <h2 class="about-title">Profile</h2>
+          <p class="about-text">
+            Hi, my name is Vitaly, I am here to gain knowledge and learn a lot
+            about programming and workflows in IT in general
+          </p>
+        </div>
+        <div class="about">
+          <h2 class="about-title">Experience</h2>
+          <div class="box">
+            <div class="year-company">
+              <h5>2021 - Present</h5>
+              <h5>Company Name</h5>
+            </div>
+            <div class="about-text">
+              <h4>Junior Developer</h4>
+              <p>
+                Here sometime there will be information about my place of work
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about skills">
+          <h2 class="about-title">Professional Skills</h2>
+          <div class="box">
+            <h4>Htmi</h4>
+            <div class="percent">
+              <div class="percent ht"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>CSS</h4>
+            <div class="percent">
+              <div class="percent cs"></div>
+            </div>
+          </div>
+          <div class="box">
+            <h4>Java Script</h4>
+            <div class="percent">
+              <div class="percent js"></div>
+            </div>
+          </div>
+        </div>
+        <div class="about interest">
+          <h2 class="about-title">Interest</h2>
+          <ul>
+            <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
+            <li><i class="fa fa-microphone" aria-hidden="true"></i>Singing</li>
+            <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
+            <li><i class="fa fa-cutlery" aria-hidden="true"></i>Cooking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+
