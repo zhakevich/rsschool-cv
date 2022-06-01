@@ -1,2 +1,2 @@
 # rsschool-cv
-https://Vik-17.github.io/rsschool-cv/cv
+https://zhakevich.github.io/rsschool-cv/cv
