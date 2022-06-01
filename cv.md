@@ -1,8 +1,8 @@
 1. Vitali Zhakevich
 2. Contacts:
-   * email: zhakevichv@ya.ru
-   * Git: Vik-17
-   * Tel: +375296119008 (Viber, WhatsApp, Telegram)
+   - email: zhakevichv@ya.ru
+   - GitHub: zhakevich
+   - Tel: +375296119008 (Viber, WhatsApp, Telegram)
 3. I want to learn programming. I was always drawn towards IT, but did not know where to start until I came across RS-school courses.
 4. Not
 5. Not
