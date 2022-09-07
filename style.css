@@ -1,0 +1,23 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+.block {
+  display: block;
+  justify-content: center;
+}
+
+.photo {
+  width: 10%;
+  height: 10%;
+}
